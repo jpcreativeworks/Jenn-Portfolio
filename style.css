@@ -1,0 +1,49 @@
+.root {
+
+}
+ 
+
+body {
+
+}
+
+header {
+    background-color: bisque;
+}
+
+.header-container {
+    width: 100%;
+}
+
+.profile-info img {
+    width: 250px;
+    height: 250px;
+
+}
+
+.profile-info {
+    display:flex;
+    width: 40%;
+    border: 1px solid red;
+}
+
+.info-box {
+    
+    height: 130px;
+    
+}
+
+.nav-right {
+    float:right;
+    position: relative;
+    top: -200px;
+}
+
+.profile-name {
+    font-size: 100px;
+    
+}
+
+.company-name {
+    font-size:  20px;
+}
