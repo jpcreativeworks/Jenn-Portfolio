@@ -46,4 +46,30 @@ header {
 
 .company-name {
     font-size:  20px;
+    font-family: sans-serif blue;
+}
+
+main {
+    display: grid;
+    height: 800px;
+}
+
+main > div {
+    border: brown 5px solid;
+}
+
+h3,
+article {
+    text-align: center;
+}
+
+footer {
+    background-color: beige;
+    margin-bottom: 0px;
+    position: relative;
+    height: 40px;
+}
+
+.contact-info {
+    float: right
 }
