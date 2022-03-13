@@ -4,51 +4,61 @@
  
 
 body {
-    background-image: url("/Images/JPCW-background.jpg");
-    background-position: 50% 50%;
-    background-repeat: repeat;
+   background-image: url(JPCW-background.jpg);
 }
 
 header {
-    background-color: bisque;
+    padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(185, 137, 175);
+    height: 220px;
+    width: 100%;
 }
 
 .header-container {
     width: 100%;
+    height: 10px;
+    padding: 25px 40px;
 }
 
-.profile-info img {
-    width: 250px;
-    height: 250px;
-
+.header-container img{
+    height: 148px 222px;
+    border-radius: 8px;
+    border: 8px solid rgb(238,219,232);
+    box-shadow: rgb(238, 219, 232) -30deg;
+    border-color: beige 3px;
 }
 
 .profile-info {
-    display:flex;
-    width: 40%;
-    border: 1px solid red;
+    
+    vertical-align: top;
+    width: 555px;
+    height: 226px;
+    
+    margin:5px;
 }
 
 .info-box {
-    
-    height: 130px;
-    
+    margin:0;
+    padding: 3px 10px 3px 0;
+}
+
+.profile-name {
+    font-size: 72px;
+    font-weight: bold;
+    color: thistle;
+}
+
+.company-name {
+    font-size:  20px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: thistle;
 }
 
 .nav-right {
     float:right;
     position: relative;
-    top: -200px;
-}
-
-.profile-name {
-    font-size: 100px;
-    
-}
-
-.company-name {
-    font-size:  20px;
-    font-family: sans-serif blue;
 }
 
 main {
@@ -56,6 +66,11 @@ main {
     height: 800px;
 }
 
+.cherry-blossom {
+    background-image: url(../JPCW-background.jpg);
+    opacity: 50%;
+    zoom: 50%;
+}
 main > div {
     border: brown 5px solid;
 }
