@@ -1,92 +1,62 @@
-.root {
-
+* {
+    margin: 0;
+    padding: 0;
 }
- 
 
 body {
-   background-image: url(JPCW-background.jpg);
-}
-
-header {
-    padding: 20px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: rgb(185, 137, 175);
-    height: 220px;
-    width: 100%;
-}
-
-.header-container {
-    width: 100%;
-    height: 10px;
-    padding: 25px 40px;
-}
-
-.header-container img{
-    height: 148px 222px;
-    border-radius: 8px;
-    border: 8px solid rgb(238,219,232);
-    box-shadow: rgb(238, 219, 232) -30deg;
-    border-color: beige 3px;
-}
-
-.profile-info {
-    
-    vertical-align: top;
-    width: 555px;
-    height: 226px;
-    
-    margin:5px;
-}
-
-.info-box {
-    margin:0;
-    padding: 3px 10px 3px 0;
-}
-
-.profile-name {
-    font-size: 72px;
-    font-weight: bold;
-    color: thistle;
-}
-
-.company-name {
-    font-size:  20px;
-    font-weight: bold;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: thistle;
-}
-
-.nav-right {
-    float:right;
+    display: flex;
     position: relative;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    background-color: thistle;
+    color: black;
+}
+
+h1,
+h2 {
+    margin: 25px;
 }
 
 main {
-    display: grid;
-    height: 800px;
+    padding: 60px
 }
 
-.cherry-blossom {
-    background-image: url(../JPCW-background.jpg);
-    opacity: 50%;
-    zoom: 50%;
-}
-main > div {
-    border: brown 5px solid;
+li {
+    display: inline;
+    padding: 0px 20px;
+    text-decoration: none;
 }
 
-h3,
-article {
-    text-align: center;
+a {
+    text-decoration: none;
+    color:rgb(1, 191, 197);
 }
 
+header,
 footer {
-    background-color: beige;
-    margin-bottom: 0px;
-    position: relative;
-    height: 40px;
+    height: 60px;
+    width: 100%;
+    line-height: 60px;
+    background-color: rgb(255, 252, 242);
+}
+
+header {
+    position: fixed;
+    border-bottom: 10px dotted rgb(1, 191, 197);
+}
+  
+footer {
+    position: absolute;
+    margin-top: 0;
+    bottom: 0;
+    border-top: 10px solid rgb(1, 191, 197);
+    color: rgb(1, 191, 197);    
+}
+
+.nav-right {
+    float: right;
 }
 
 .contact-info {
-    float: right
+    float: right;
 }
