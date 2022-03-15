@@ -56,6 +56,7 @@ header {
 }
 
 .profile-info img {
+    display:flex;
     display: inline;
     width: 25%;
     margin: 50px 0 25px 5px;
@@ -73,6 +74,7 @@ header {
 }
 
 .row {
+    flex-direction:row;
     display: block;
     width: 100%;
 }
@@ -80,8 +82,31 @@ header {
 .row img {
     display: inline;
     width: 28%;
-    max-height: 350px
+    max-height: 635px
 }
+
+.row2 {
+    flex-direction:row;
+    display: block;
+    width: 100%;
+}
+
+.row2 img {
+    display: inline;
+    width: 46%;
+    max-height: 635px
+}
+
+.row1 {
+    flex-direction:row;
+    display: block;
+    width: 100%;
+}
+
+.row1 img {
+    display: inline;
+    width: 95%;
+    max-height: 635px
 
 footer {
     flex: 1;
