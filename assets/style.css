@@ -4,6 +4,10 @@
 }
 
 body {
+    /* background-image: url("JPCW-background.jpg"); */
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+    /* width: 100%; */
     display: flex;
     flex-direction: column;
     position: relative;
@@ -47,19 +51,22 @@ footer {
 header {
     flex: 1;
     position: fixed;
-    border-bottom: 10px dotted rgb(1, 191, 197);
+    border-bottom: 10px solid rgb(1, 191, 197);
 }
 
 .profile-info {
-    display: flex;
+    flex-direction: row;
+    display: inline-flex;
     justify-content: space-between;
+    object-fit: cover;
 }
 
 .profile-info img {
-    display:flex;
-    display: inline;
+    /* display: block; */
+    /* display: inline; */
     width: 25%;
     margin: 50px 0 25px 5px;
+    object-fit: cover;
 }
 
 /* .profile-name {
@@ -71,6 +78,22 @@ header {
     width: 65%;
     height: 300px;
     margin: 50px 0 25px 5px; 
+}
+
+.about-me {
+    /* align-content: center; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+ 
+}
+
+h3, 
+article, 
+p {
+  text-align: center;
+}
+
+section p{
+    text-align: center;
 }
 
 .row {
@@ -107,6 +130,7 @@ header {
     display: inline;
     width: 95%;
     max-height: 635px
+}
 
 footer {
     flex: 1;
