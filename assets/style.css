@@ -97,15 +97,19 @@ section p{
 }
 
 .row {
-    flex-direction:row;
-    display: block;
-    width: 100%;
+    /* flex-direction:row; */
+    display: flex;
+    flex-wrap: wrap;
+    width: 95%;
+    margin-left: 4%;
 }
 
 .row img {
-    display: inline;
-    width: 28%;
-    max-height: 635px
+    /* display: inline; */
+    width: 27%;
+    margin: 1%;
+    padding: 1%;
+    max-height: 635px;
 }
 
 .row2 {
