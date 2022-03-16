@@ -61,13 +61,15 @@ header {
     object-fit: cover;
 }
 
-.profile-info img {
+.profile-info #profileimg {
     /* display: block; */
     /* display: inline; */
     width: 25%;
     margin: 50px 0 25px 5px;
     object-fit: cover;
 }
+
+
 
 /* .profile-name {
     display: inline-block;
