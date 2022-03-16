@@ -112,26 +112,28 @@ section p{
     max-height: 635px;
 }
 
-.row2 {
-    flex-direction:row;
-    display: block;
+/* .row2 {
+    flex-direction:row; 
+    display: flex;
     width: 100%;
-}
+} */
 
 .row2 img {
-    display: inline;
-    width: 46%;
-    max-height: 635px
+    /* display: inline; */
+    width: 42%;
+    margin: 1%;
+    padding: 1%;
+    max-height: 635px;
 }
 
-.row1 {
+/* .row1 { 
     flex-direction:row;
     display: block;
     width: 100%;
-}
+} */
 
 .row1 img {
-    display: inline;
+    
     width: 95%;
     max-height: 635px
 }
@@ -154,5 +156,11 @@ footer {
     float: right;
     bottom: 0;
     position: relative;
+}
+
+@media screen and (max-width: 992px) {
+    .row img{
+        width: 90%
+    }
 }
 
