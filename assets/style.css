@@ -4,13 +4,17 @@
 }
 /* BODY */
 body {
-    display: flex;
+    display: fixed;
     flex-direction: column;
-    position: relative;
+    position: fixed;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
     background-color: rgb(215, 242, 248);
     color: black;
+    background-image: url("../JPCW-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     height: 100vh;
 }
 
@@ -96,10 +100,10 @@ section p{
     max-height: 635px;
 }
 /* IMG TEXT IN POINTER HOVER */
-.contentimg {
+/* .contentimg {
     position: relative;
     
-}
+} */
 
 .contentimg .hiddentext {
     position: absolute;
