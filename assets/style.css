@@ -4,23 +4,23 @@
 }
 /* BODY */
 body {
-    display: fixed;
     flex-direction: column;
-    position: fixed;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
     background-color: rgb(215, 242, 248);
     color: black;
-    background-image: url("../JPCW-background.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
+
 }
 
 main {
     flex: 1;
-    padding: 60px
+    background-image: url("../JPCW-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position:fixed;
+    overflow-y:scroll;
+    height: 100vh;
 }
 
 li {
@@ -38,6 +38,8 @@ header,
 footer {
     width: 100%;
     background-color: rgb(255, 252, 242);
+    z-index: 1;
+    
 }
 
 header {
@@ -59,9 +61,11 @@ header {
 
 .profile-info #profileimg {
    
-    width: 25%;
-    margin: 50px 0 25px 5px;
+    width: auto;
+    margin: 50px 60px 25px 65px;
+    max-width: 25%;
     object-fit: cover;
+    height: 100%;
 }
 
 .profile-info .info-box {
@@ -73,6 +77,8 @@ header {
 /* ABOUT ME */
 .about-me {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color:  rgb(255, 252, 242, 0.5);
+    width: 100%;
 }
 
 h3, 
@@ -90,6 +96,9 @@ section p{
     flex-wrap: wrap;
     width: 95%;
     margin-left: 4%;
+    place-content: space-evenly;
+    align-content: space-evenly;
+    justify-content: space-evenly;
 }
 
 .row img {
@@ -147,10 +156,11 @@ section p{
 
 footer {
     flex: 1;
-    position: relative;
+    position: fixed;
     bottom: 0;
     border-top: 10px solid rgb(1, 191, 197);
     color: rgb(1, 191, 197);    
+    z-index: 1;
 }
 
 /* FOOTER */
