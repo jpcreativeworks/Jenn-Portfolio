@@ -4,9 +4,9 @@
 }
 /* BODY */
 body {
-    display: fixed;
+    /* display: fixed; */
     flex-direction: column;
-    position: fixed;
+    /* position: fixed; */
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
     background-color: rgb(215, 242, 248);
@@ -15,6 +15,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
     height: 100vh;
 }
 
