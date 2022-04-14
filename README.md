@@ -1,12 +1,16 @@
 # Jenn-Portfolio
 
-I had the most trouble with getting my text to show up left of my profile picture. This entire project was challenging tho.
+This is a portfolio of my past and present work.
 
-I really feel like I understand better how to put elements into a container and then following the branches to apply css attributes to those containers.
+## About
+
+I present a portfolio of my graphic design work as well as my newly developed skill as a full stack web developer. I was able to update my site so that it was responsive, linked to my recent web development work, and my git hub page. 
+
+Any feed back is appreciated.
 
 ## Website Screen Shot
 
-![Website Screenshot]</_Users_jannabencriscutto_Desktop_Homework-Assignments_Jenn-Portfolio_index.html.png">
+![Website Screenshot]</_Users_jannabencriscutto_Desktop_Homework-Assignments_Jenn-Portfolio_index.html_(3).png">
 
 ## Links
 
