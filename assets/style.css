@@ -11,7 +11,15 @@ body {
     color: black;
 
 }
-
+.profile-name h1 {
+    font-size: 2em;
+}
+.company-name h2 {
+    font-size: 1.5em;
+}
+h3 {
+    font-size: 1.17em;
+}
 main {
     flex: 1;
     background-image: url("../JPCW-background.jpg");
@@ -57,8 +65,12 @@ header {
     display: inline-flex;
     justify-content: space-between;
     object-fit: cover;
+    
 }
+.info-box {
+    background-color:  rgb(255, 252, 242, 0.5);
 
+}
 .profile-info #profileimg {
    
     width: auto;
@@ -113,6 +125,9 @@ section p{
     position: relative;
     
 } */
+.contentimg {
+    position: relative;
+}
 
 .contentimg .hiddentext {
     position: absolute;
